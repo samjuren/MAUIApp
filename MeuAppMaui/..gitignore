@@ -5,6 +5,20 @@ obj/
 [Bb]uilds/
 [Ll]ogs/
 
+# Ignorar bin/ e obj/ em qualquer projeto/nível
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/**
+**/[Oo]bj/**
+
+[Bb]in/
+[Oo]bj/
+*.user
+*.csproj.user
+*.suo
+*.userprefs
+
+
 # User-specific files
 *.user
 *.userosscache

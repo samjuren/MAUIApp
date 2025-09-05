@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/ssjuren/MAUI/MAUIApp/MeuAppMaui/bin/Debug/net9.0-ios/iossimulator-arm64/MeuAppMaui.app/libmono-component-diagnostics_tracing.dylib
