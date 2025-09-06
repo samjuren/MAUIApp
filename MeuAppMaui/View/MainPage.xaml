@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppMaui.MainPage">
+    <StackLayout>
+        <Grid Margin="10,0,10,0" ColumnDefinitions="*,auto">
+            <Border>
+                <Entry
+                    Placeholder="Digite sua idade" 
+                    Keyboard="Numeric" 
+                    Text="{Binding Idade}"/>
+            </Border>
+            <Button 
+                Grid.Column="1" 
+                Text="Verificar idade" 
+                Command="{Binding VerificarIdadeCommand}"/>
+        </Grid>
+        <Label 
+            Text="{Binding MensagemIdade}"
+            Margin="10,30,0,0" 
+            TextColor="{Binding ColorLabel}" 
+            FontSize="20" 
+            FontAttributes="Bold"/>
+        <CollectionView ItemsSource="{Binding ListIdade}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding IdUser}"/>
+                        <Label Text="{Binding Idade}" TextColor="{Binding ColorLabel}"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

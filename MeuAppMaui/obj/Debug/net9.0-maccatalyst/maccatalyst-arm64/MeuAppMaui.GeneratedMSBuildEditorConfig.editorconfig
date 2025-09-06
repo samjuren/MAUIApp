@@ -24,12 +24,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = MeuAppMaui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/ssjuren/MAUI/MAUIApp/MeuAppMaui/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MeuAppMaui.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [/Users/ssjuren/MAUI/MAUIApp/MeuAppMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MeuAppMaui.Resources.Styles.Colors.xaml
@@ -41,3 +35,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MeuAppMaui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/ssjuren/MAUI/MAUIApp/MeuAppMaui/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MeuAppMaui.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View/MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View/MainPage.xaml
